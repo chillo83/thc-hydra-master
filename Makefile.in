@@ -1,0 +1,8 @@
+XDEFINES= -DLIBOPENSSL -DLIBNCURSES -DNO_RINDEX -DNO_RSA_LEGACY -DHAVE_MATH_H
+XLIBS= -lcurses -lssl -lcrypto
+XLIBPATHS=-L/usr/lib -L/usr/local/lib -L/lib -L/usr/lib
+XIPATHS= -I/usr/include
+PREFIX=/usr/local
+XHYDRA_SUPPORT=
+STRIP=strip
+
